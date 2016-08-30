@@ -67,3 +67,20 @@ ssh chai@ip -p PORT_NUMBER
 ```
 
 Done :smile:
+
+
+## Extra
+
+Install Oracle DB, Transform CentOS to Oracle Linux (sudo mode)
+
+```
+curl -O https://linux.oracle.com/switch/centos2ol.sh 
+sh centos2ol.sh
+
+yum install oracle-rdbms-server-11gR2-preinstall
+```
+
+## References
+
+- [Initial Server Setup with CentOS 7](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-centos-7)
+- [Oracle Linux: A better alternative to CentOS](http://linux.oracle.com/switch/centos/)
